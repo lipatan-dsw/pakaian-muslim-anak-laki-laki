@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013 Murah,che-013,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Baju Koko Lengan Pendek Anak Laki-Laki - CSG 262 Murah,csg-262,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013 Murah,che-013,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013 Murah,che-013,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Anak Laki-Laki ini terbuat dari bahan COTTON.<br/>Kode : CHE 013<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Baju Koko Lengan Pendek Anak Laki-Laki - CSG 262 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSG 262<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013 Murah,che-013,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan COTTON, Ukuran 4 ~ 8, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/che-013.jpg,-/-,-/-,-/-,-/-,-/-,Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 013,Rp 122.900,Rp 141.900,Rp 19.000,CHE 013,Baru
-Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250 Murah,csg-250,"
+     </div><!--/category-tab-->",2019-01-18,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan COTTON, Warna ABU ABU, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csg-262.jpg,-/-,-/-,-/-,-/-,-/-,Baju Koko Lengan Pendek Anak Laki-Laki - CSG 262,Rp 149.900,Rp 121.900,Rp 134.900,CSG 262,Baru
+Jual Baju Koko Lengan Panjang Anak Laki-Laki - CDH 022 Murah,cdh-022,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250 Murah,csg-250,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250 Murah,csg-250,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Anak Laki-Laki ini terbuat dari bahan CANVAS.<br/>Kode : CSG 250<br/>Warna : TOSKA<br/>Bahan : CANVAS<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Baju Koko Lengan Panjang Anak Laki-Laki - CDH 022 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDH 022<br/>Warna : PUTIH KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250 Murah,csg-250,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan CANVAS, Ukuran 4 ~ 8, Warna TOSKA",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csg-250.jpg,-/-,-/-,-/-,-/-,-/-,Pakaian Muslim Stelan Koko Anak Laki-laki - CSG 250,Rp 114.900,Rp 132.900,Rp 18.000,CSG 250,Baru
-Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015 Murah,che-015,"
+     </div><!--/category-tab-->",2019-01-18,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan COTTON, Warna PUTIH KOMBINASI, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdh-022.jpg,-/-,-/-,-/-,-/-,-/-,Baju Koko Lengan Panjang Anak Laki-Laki - CDH 022,Rp 132.900,Rp 108.900,Rp 119.900,CDH 022,Baru
+Jual Baju Koko Lengan Panjang Anak Laki-Laki - CDH 020 Murah,cdh-020,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015 Murah,che-015,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015 Murah,che-015,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Pakaian Muslim Anak Laki-Laki ini terbuat dari bahan COTTON.<br/>Kode : CHE 015<br/>Warna : KUNING<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Baju Koko Lengan Panjang Anak Laki-Laki - CDH 020 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDH 020<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 8 ~ 12<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,4 +184,4 @@ Jual Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015 Murah,che-015,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan COTTON, Ukuran 4 ~ 8, Warna KUNING",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/che-015.jpg,-/-,-/-,-/-,-/-,-/-,Pakaian Muslim Stelan Koko Anak Laki-laki - CHE 015,Rp 122.900,Rp 141.900,Rp 19.000,CHE 015,Baru
+     </div><!--/category-tab-->",2019-01-18,html,pakaian-muslim-anak-laki-laki,catenzo-junior,pakaian-muslim-anak-laki-laki,catenzo-junior,"Pakaian Muslim Anak Laki-Laki Bahan COTTON, Warna HITAM, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdh-020.jpg,-/-,-/-,-/-,-/-,-/-,Baju Koko Lengan Panjang Anak Laki-Laki - CDH 020,Rp 132.900,Rp 108.900,Rp 119.900,CDH 020,Baru
